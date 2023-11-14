@@ -1,1 +1,12 @@
 
+#reviews-page h2 {
+    font-size: 2rem;
+}
+
+#reviews-page p {
+    font-size: 1.2rem;
+}
+
+#reviews-page img {
+    width: 15%;
+}
