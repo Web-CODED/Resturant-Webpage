@@ -1,1 +1,24 @@
 
+.menu-product img {
+    width: 100%;
+}
+
+#lunch img {
+    transform: scaleX(-1);
+}
+
+.background-dark,
+#lunch .card,
+#dessert .card {
+    background-color: rgb(33,37,41);
+}
+
+.menu-product h2 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .menu-product h2 {
+        font-size: 2.3rem;
+    }
+}
