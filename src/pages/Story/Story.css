@@ -1,1 +1,43 @@
 
+.our-story {
+    background-color: rgb(33,37,41);
+}
+
+.our-story img {
+    width: 75%;
+}
+
+#allstory h1 {
+    font-size: 3rem;
+}
+
+#allstory h3 {
+    font-size: 2rem;
+}
+
+#allstory h4 {
+    font-size: 2rem;
+}
+
+#header-img {
+    width: 100%;
+}
+
+.images-gallery img {
+    width: 100%;
+}
+
+#stage {
+    width: 50%;
+    margin: 5rem 0;
+}
+
+@media screen and (max-width: 992px) {
+    #allstory h1 {
+        font-size: 2.3rem;
+    }
+
+    .our-story img {
+        width: 100%;
+    }
+}
