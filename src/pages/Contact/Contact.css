@@ -1,1 +1,36 @@
 
+#contact-page h1 {
+    font-size: 3rem;
+}
+
+#allcontacts h1 {
+    padding: 5%;
+}
+
+#phone img {
+    width: 100%;
+}
+
+#allcontacts ion-icon {
+    font-size: 1.4rem;
+}
+
+#allcontacts .hov:hover {
+    cursor: pointer;
+}
+
+#contact-page #reviews-page {
+    background-color: rgb(33,37,41);
+}
+
+#contact-page #reviews-page h2 {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) {
+    #contact-page h1 {
+        font-size: 2.3rem;
+    }
+}
+
+
