@@ -1,1 +1,17 @@
 
+#reservation-page h2 {
+    margin-bottom: 2rem;
+}
+
+/* MODAL */
+
+#results #modal {
+    display: flex;
+    align-items: center;
+}
+
+#results #modal .btn-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
