@@ -1,1 +1,111 @@
 
+#head {
+    background-image: -webkit-gradinet(linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url(../../utils/img/dinner-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../utils/img/dinner-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#head h1 {
+    font-size: 5rem;
+}
+
+#top-button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#head h2,
+#head h1,
+#top-button,
+#top-reservation-button {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* SECOND_SECTION */
+
+#second-img img {
+    width: 100%;
+}
+
+/* MENU-SECTION */
+
+#menu-section {
+    background-color: rgb(33,37,41);
+}
+
+/* FOOD SECTION */
+
+.food-div p {
+    font-size: 2.3rem;
+}
+
+.food-div img {
+    filter: brightness(40%);
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 2500px) {
+    #head h2 {
+        font-size: 4rem;
+    }
+
+    #head h1 {
+        font-size: 6rem;
+    }
+
+    .food-div p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .food-div p {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #head h1 {
+        font-size: 3.5rem;
+    }
+
+    #head h2 {
+        font-size: 2rem;
+    }
+
+    .food-div p {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #head h1 {
+        font-size: 2.5rem;
+    }
+
+    #head h2 {
+        font-size: 1.5rem;
+    }
+
+    #menu-section .dish-card {
+        padding: 0;
+    }
+
+    .food-div p {
+        font-size: 2.5rem;
+    }
+}
